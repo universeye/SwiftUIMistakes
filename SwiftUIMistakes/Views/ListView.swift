@@ -18,6 +18,7 @@ struct ListView: View {
             }
             
             List(0..<rowCount, id: \.self) { row in
+                //if you don't add id, it won't work
                 Text("Row \(row)")
             }
         }
