@@ -17,6 +17,7 @@
 		BF00410E260B7D2500245ABA /* SwiftUIMistakesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00410D260B7D2500245ABA /* SwiftUIMistakesUITests.swift */; };
 		BF00411F260B7DA100245ABA /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00411E260B7DA100245ABA /* SFSymbols.swift */; };
 		BF004124260C31AD00245ABA /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004123260C31AD00245ABA /* SliderView.swift */; };
+		BF004129260C34F800245ABA /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004128260C34F800245ABA /* StrokeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BF00410F260B7D2500245ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF00411E260B7DA100245ABA /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		BF004123260C31AD00245ABA /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		BF004128260C34F800245ABA /* StrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				BF0040ED260B7D2400245ABA /* SceneDelegate.swift */,
 				BF0040EF260B7D2400245ABA /* ContentView.swift */,
 				BF004123260C31AD00245ABA /* SliderView.swift */,
+				BF004128260C34F800245ABA /* StrokeView.swift */,
 				BF00411E260B7DA100245ABA /* SFSymbols.swift */,
 				BF0040F1260B7D2500245ABA /* Assets.xcassets */,
 				BF0040F6260B7D2500245ABA /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF004129260C34F800245ABA /* StrokeView.swift in Sources */,
 				BF00411F260B7DA100245ABA /* SFSymbols.swift in Sources */,
 				BF0040EC260B7D2400245ABA /* AppDelegate.swift in Sources */,
 				BF0040EE260B7D2400245ABA /* SceneDelegate.swift in Sources */,

@@ -23,6 +23,12 @@ struct ContentView: View {
                     SFSymbols.slider
                     Text("Slider")
                 }
+            
+            StrokeView()
+                .tabItem {
+                    SFSymbols.strokeShape
+                    Text("Stroke")
+                }
         }
     }
 }
