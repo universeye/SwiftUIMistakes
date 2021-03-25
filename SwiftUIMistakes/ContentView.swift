@@ -11,11 +11,10 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
-            Text("Hello, world!")
-                .padding()
+            AlertView()
                 .tabItem {
-                    SFSymbols.home
-                    Text("Home")
+                    SFSymbols.alert
+                    Text("Alert")
                 }
             
             SliderView()
