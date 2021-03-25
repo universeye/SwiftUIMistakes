@@ -16,6 +16,7 @@
 		BF004103260B7D2500245ABA /* SwiftUIMistakesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004102260B7D2500245ABA /* SwiftUIMistakesTests.swift */; };
 		BF00410E260B7D2500245ABA /* SwiftUIMistakesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00410D260B7D2500245ABA /* SwiftUIMistakesUITests.swift */; };
 		BF00411F260B7DA100245ABA /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00411E260B7DA100245ABA /* SFSymbols.swift */; };
+		BF004124260C31AD00245ABA /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004123260C31AD00245ABA /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BF00410D260B7D2500245ABA /* SwiftUIMistakesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMistakesUITests.swift; sourceTree = "<group>"; };
 		BF00410F260B7D2500245ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF00411E260B7DA100245ABA /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		BF004123260C31AD00245ABA /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BF0040EB260B7D2400245ABA /* AppDelegate.swift */,
 				BF0040ED260B7D2400245ABA /* SceneDelegate.swift */,
 				BF0040EF260B7D2400245ABA /* ContentView.swift */,
+				BF004123260C31AD00245ABA /* SliderView.swift */,
 				BF00411E260B7DA100245ABA /* SFSymbols.swift */,
 				BF0040F1260B7D2500245ABA /* Assets.xcassets */,
 				BF0040F6260B7D2500245ABA /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 				BF0040EC260B7D2400245ABA /* AppDelegate.swift in Sources */,
 				BF0040EE260B7D2400245ABA /* SceneDelegate.swift in Sources */,
 				BF0040F0260B7D2400245ABA /* ContentView.swift in Sources */,
+				BF004124260C31AD00245ABA /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

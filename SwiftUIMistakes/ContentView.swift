@@ -17,18 +17,23 @@ struct ContentView: View {
                     SFSymbols.home
                     Text("Home")
                 }
-        
-        Text("2")
-            .tabItem { SFSymbols.slider
-                Text("Slider")
-            }
+            
+            SliderView()
+                .tabItem {
+                    SFSymbols.slider
+                    Text("Slider")
+                }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            .preferredColorScheme(.light)
+        Group {
+            ContentView()
+                .preferredColorScheme(.light)
+            ContentView()
+                .preferredColorScheme(.dark)
+        }
     }
 }
