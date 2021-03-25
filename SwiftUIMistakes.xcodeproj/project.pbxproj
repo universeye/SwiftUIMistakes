@@ -19,6 +19,7 @@
 		BF004124260C31AD00245ABA /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004123260C31AD00245ABA /* SliderView.swift */; };
 		BF004129260C34F800245ABA /* StrokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004128260C34F800245ABA /* StrokeView.swift */; };
 		BF00412E260C362B00245ABA /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF00412D260C362B00245ABA /* AlertView.swift */; };
+		BF004138260C395500245ABA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF004137260C395500245ABA /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BF004123260C31AD00245ABA /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		BF004128260C34F800245ABA /* StrokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeView.swift; sourceTree = "<group>"; };
 		BF00412D260C362B00245ABA /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		BF004137260C395500245ABA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,11 +111,8 @@
 			children = (
 				BF0040EB260B7D2400245ABA /* AppDelegate.swift */,
 				BF0040ED260B7D2400245ABA /* SceneDelegate.swift */,
-				BF0040EF260B7D2400245ABA /* ContentView.swift */,
-				BF00412D260C362B00245ABA /* AlertView.swift */,
-				BF004123260C31AD00245ABA /* SliderView.swift */,
-				BF004128260C34F800245ABA /* StrokeView.swift */,
-				BF00411E260B7DA100245ABA /* SFSymbols.swift */,
+				BF004132260C380C00245ABA /* Model */,
+				BF004133260C381600245ABA /* Views */,
 				BF0040F1260B7D2500245ABA /* Assets.xcassets */,
 				BF0040F6260B7D2500245ABA /* LaunchScreen.storyboard */,
 				BF0040F9260B7D2500245ABA /* Info.plist */,
@@ -146,6 +145,26 @@
 				BF00410F260B7D2500245ABA /* Info.plist */,
 			);
 			path = SwiftUIMistakesUITests;
+			sourceTree = "<group>";
+		};
+		BF004132260C380C00245ABA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF00411E260B7DA100245ABA /* SFSymbols.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF004133260C381600245ABA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF0040EF260B7D2400245ABA /* ContentView.swift */,
+				BF004137260C395500245ABA /* ListView.swift */,
+				BF00412D260C362B00245ABA /* AlertView.swift */,
+				BF004123260C31AD00245ABA /* SliderView.swift */,
+				BF004128260C34F800245ABA /* StrokeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF004138260C395500245ABA /* ListView.swift in Sources */,
 				BF004129260C34F800245ABA /* StrokeView.swift in Sources */,
 				BF00411F260B7DA100245ABA /* SFSymbols.swift in Sources */,
 				BF00412E260C362B00245ABA /* AlertView.swift in Sources */,

@@ -28,6 +28,12 @@ struct ContentView: View {
                     SFSymbols.strokeShape
                     Text("Stroke")
                 }
+            
+            ListView()
+                .tabItem{
+                    SFSymbols.list
+                    Text("List")
+                }
         }
     }
 }

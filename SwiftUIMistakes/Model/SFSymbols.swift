@@ -13,6 +13,7 @@ enum SFSymbols: String, View {
     case slider = "slider.horizontal.below.rectangle"
     case strokeShape = "squareshape.dashed.squareshape"
     case alert = "exclamationmark.triangle.fill"
+    case list = "list.bullet"
     
     var body: some View {
         Image(systemName: self.rawValue)
