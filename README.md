@@ -12,7 +12,7 @@
 
 
 # Menu
-* [Screenshots](#screenshots)
+
 * [Source](#source)
 * [Contributions](#contributions)
 * [Contact](#contact)
